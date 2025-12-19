@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Cricket Tournament Registration</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow">
+    <meta name="generator" content="GrapesJS Studio">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&amp;family=Poppins:wght@500;700&amp;display=swap" rel="stylesheet" />
+  </head>
+
+  <body class="gjs-t-body body-root">
+    <header class="navbar-wrapper" id="imaal">
+      <div id="if7e5" class="navbar-container">
+        <a href="./cricket-tournament-registration.html" class="navbar-brand" id="insih">
+          <span id="i422z" class="gjs-t-h1 navbar-brand-title">Cricket Tournament</span>
+        </a>
+        <img id="in5dxs" src="https://cdn.grapesjs.com/workspaces/cmjaykoz70c2hxbunlk115c0k/assets/68032d4d-e504-44e8-8bab-f98d58a0deab__cr1.webp" />
+      </div>
+    </header>
+    <main id="ik2bl" class="main-content">
+      <section id="ia1nwx" class="form-section">
+        <div id="i9kk45" class="form-grid">
+          <div class="gjs-t-border form-card" id="ivce3">
+            <div class="form-card-header" id="ii6ph">
+              <div class="form-header-row" id="iq8uj"></div>
+            </div>
+            <form method="post" action="#" id="i09ogc" class="registration-form">
+              <div class="form-row" id="ifgit">
+                <div class="form-field" id="isjml">
+                  <label for="name" id="iz8aul" class="form-label">Player name </label>
+                  <input type="text" id="name" name="name" placeholder="" required class="gjs-t-border form-input-text" />
+                </div>
+                <div class="form-field" id="irp12">
+                  <label for="age" id="ig7y3b" class="form-label">Age</label>
+                  <input type="number" id="age" name="age" min="10" max="70" placeholder="" required class="gjs-t-border form-input-number" />
+                </div>
+              </div>
+              <div class="form-row" id="irgz9">
+                <div class="form-field" id="i3n25">
+                  <label for="email" id="ilcn4t" class="form-label">Email</label>
+                  <div class="form-input-with-icon-wrapper" id="iva1a">
+                    <img src="https://api.iconify.design/lucide-mail.svg?color=%239ca3af" alt="Email icon" class="form-input-icon" id="iz4xi" />
+                    <input type="email" id="email" name="email" placeholder="" required class="gjs-t-border form-input-email" />
+                  </div>
+                </div>
+                <div id="iyy5cg" class="form-field">
+                  <label for="phone" id="i5x2tn" class="form-label">contant</label>
+                  <div class="form-input-with-icon-wrapper" id="i2bi2">
+                    <img src="https://api.iconify.design/lucide-phone.svg?color=%239ca3af" alt="Phone icon" class="form-input-icon" id="iftgt" />
+                  </div>
+                </div>
+              </div>
+              <div class="form-row" id="i4z62">
+                <div class="form-field" id="iwnch">
+                  <label for="team" class="form-label" id="i72bn">Team Name</label>
+                  <input type="text" id="team" name="team" placeholder="" class="gjs-t-border form-input-text" />
+                </div>
+                <div id="iyo28j" class="form-field">
+                  <label for="role" class="form-label" id="ix4gf">Player Role *</label>
+                  <div class="custom-select-wrapper" id="ifv8e">
+                    <select type="text" id="role" name="role" required class="gjs-t-border form-select">
+                      <option value="" id="itooc">Select a role</option>
+                      <option value="Batsman" id="ip0rj5">Batsman</option>
+                      <option value="Bowler" id="igqmgs">Bowler</option>
+                      <option value="All-rounder" id="ipn3xo">All-rounder</option>
+                      <option value="Wicket-keeper" id="iyz9d4">Wicket-keeper</option>
+                    </select>
+                    <img src="https://api.iconify.design/lucide-chevron-down.svg?color=%239ca3af" alt="" class="custom-select-icon" id="ilf19j" />
+                  </div>
+                </div>
+              </div>
+              <div class="form-row" id="ilar2q">
+                <div class="gjs-t-border form-consent-box" id="i5ijdl"></div>
+              </div>
+              <div class="form-actions-row" id="ie15i8">
+                <div class="form-helper-note" id="imq21g">
+                  <img src="https://api.iconify.design/lucide-shield-check.svg?color=%239ca3af" alt="Shield icon" class="form-helper-icon" id="id8glk" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="organizer-section" id="ibdy6i"></section>
+    </main>
+    <footer class="footer-wrapper" id="ihd9xl">
+      <div id="ipeku7" class="footer-container">
+        <div class="footer-brand" id="iry7hr">
+          <div id="i5anqd"></div>
+        </div>
+        <div class="footer-links" id="i8vllh"></div>
+      </div>
+      <div class="footer-bottom" id="i8d3wi">
+        <div class="footer-divider" id="i76enp"></div>
+      </div>
+    </footer>
+    <div class="responsive-adjustments" id="igwgmp"></div>
+    <section class="decorative-below-fold" id="i4ktfk">
+      <div class="gjs-t-border decorative-image-wrapper" id="idzziq">
+        <img src="https://app.grapesjs.com/api/assets/random-image?query=%22cricket%20stadium%20sunset%22&amp;w=1600&amp;h=600" alt="Cricket stadium at sunset" loading="lazy" id="ihsw1w" class="decorative-image" />
+      </div>
+    </section>
+  </body>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+
+*,A
+::before,
+::after {
+  box-sizing: border-box;
+  undefined: undefined;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+html,
+:host {
+  line-height: 1.5;
+  undefined: undefined;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  undefined: undefined;
+  line-height: inherit;
+}
+
+hr {
+  height: 0;
+  undefined: undefined;
+  color: inherit;
+  border-top-width: 1px;
+}
+
+abbr:where([title]) {
+  text-decoration: underline dotted;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  undefined: undefined;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+table {
+  text-indent: 0;
+  undefined: undefined;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  undefined: undefined;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button;
+  undefined: undefined;
+  background-color: transparent;
+  background-image: none;
+}
+
+:-moz-focusring {
+  outline: auto;
+}
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  undefined: undefined;
+  outline-offset: -2px;
+}
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  undefined: undefined;
+  font: inherit;
+}
+
+summary {
+  display: list-item;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+dialog {
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  undefined: undefined;
+  color: #9ca3af;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+:disabled {
+  cursor: default;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  undefined: undefined;
+  vertical-align: middle;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+[hidden] {
+  display: none;
+}
+
+.body-root {
+  background-color: rgb(255 255 255 / 1);
+  color: rgb(31 41 55 / 1);
+}
+
+.navbar-wrapper {
+  width: 100%;
+  border-bottom-width: 1px;
+  border-color: rgb(229 231 235 / 1);
+}
+
+.navbar-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration-line: none;
+}
+
+.navbar-brand-title {
+  font-weight: 600;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.form-section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 64rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.form-card {
+  grid-column: span 2 / span 2;
+  border-radius: 0.75rem;
+  border-width: 1px;
+  background-color: rgb(255 255 255 / 1);
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.form-card-header {
+  padding: 1.5rem;
+  border-bottom-width: 1px;
+  border-color: rgb(229 231 235 / 1);
+}
+
+.form-header-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.registration-form {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-label {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: rgb(55 65 81 / 1);
+}
+
+.form-input-text {
+  border-radius: 0.5rem;
+  border-width: 1px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(31 41 55 / 1);
+}
+
+.form-input-text::placeholder::placeholder {
+  color: rgb(156 163 175 / 1);
+}
+
+.form-input-text:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 0px #fff, 0 0 0 calc(2px + 0px) rgb(59 130 246 / 0.5), 0 0 #0000;
+  border-color: rgb(207 84 158 / 1);
+}
+
+.form-input-text:focus:hover {
+  border-color: rgb(207 84 158 / 1);
+}
+
+.form-input-text:hover {
+  border-color: rgb(209 213 219 / 1);
+}
+
+.form-input-text:hover:focus {
+  border-color: rgb(209 213 219 / 1);
+}
+
+.form-input-number {
+  border-radius: 0.5rem;
+  border-width: 1px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(31 41 55 / 1);
+}
+
+.form-input-number::placeholder::placeholder {
+  color: rgb(156 163 175 / 1);
+}
+
+.form-input-number:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 0px #fff, 0 0 0 calc(2px + 0px) rgb(59 130 246 / 0.5), 0 0 #0000;
+  border-color: rgb(207 84 158 / 1);
+}
+
+.form-input-number:focus:hover {
+  border-color: rgb(207 84 158 / 1);
+}
+
+.form-input-number:hover {
+  border-color: rgb(209 213 219 / 1);
+}
+
+.form-input-number:hover:focus {
+  border-color: rgb(209 213 219 / 1);
+}
+
+.form-input-with-icon-wrapper {
+  position: relative;
+}
+
+.form-input-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translate(0, -50%) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+  pointer-events: none;
+}
+
+.form-input-email {
+  width: 100%;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  padding-left: 2.5rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(31 41 55 / 1);
+}
+
+.form-input-email::placeholder::placeholder {
+  color: rgb(156 163 175 / 1);
+}
+
+.form-input-email:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 0px #fff, 0 0 0 calc(2px + 0px) rgb(59 130 246 / 0.5), 0 0 #0000;
+  border-color: rgb(207 84 158 / 1);
+}
+
+.form-input-email:focus:hover {
+  border-color: rgb(207 84 158 / 1);
+}
+
+.form-input-email:hover {
+  border-color: rgb(209 213 219 / 1);
+}
+
+.form-input-email:hover:focus {
+  border-color: rgb(209 213 219 / 1);
+}
+
+.form-input-tel::placeholder::placeholder {
+  color: rgb(156 163 175 / 1);
+}
+
+.form-input-tel:focus:hover {
+  border-color: rgb(207 84 158 / 1);
+}
+
+.form-input-tel:hover:focus {
+  border-color: rgb(209 213 219 / 1);
+}
+
+.custom-select-wrapper {
+  position: relative;
+}
+
+.form-select {
+  appearance: none;
+  width: 100%;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(31 41 55 / 1);
+  background-color: rgb(255 255 255 / 1);
+}
+
+.form-select:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 0px #fff, 0 0 0 calc(2px + 0px) rgb(59 130 246 / 0.5), 0 0 #0000;
+  border-color: rgb(207 84 158 / 1);
+}
+
+.form-select:focus:hover {
+  border-color: rgb(207 84 158 / 1);
+}
+
+.form-select:hover {
+  border-color: rgb(209 213 219 / 1);
+}
+
+.form-select:hover:focus {
+  border-color: rgb(209 213 219 / 1);
+}
+
+.custom-select-icon {
+  pointer-events: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translate(0, -50%) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+.form-consent-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  padding: 0.75rem;
+  background-color: rgb(253 242 248 / 0.6);
+}
+
+.consent-checkbox:focus:hover {
+  box-shadow: 0 0 0 0px #fff, 0 0 0 calc(1px + 0px) rgb(59 130 246 / 0.5), 0 0 #0000;
+}
+
+.consent-checkbox:hover:focus {
+  box-shadow: 0 0 0 0px #fff, 0 0 0 calc(1px + 0px) rgb(59 130 246 / 0.5), 0 0 #0000;
+}
+
+.form-actions-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.form-helper-note {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(75 85 99 / 1);
+}
+
+.form-helper-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.organizer-section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.footer-wrapper {
+  width: 100%;
+  border-top-width: 1px;
+  border-color: rgb(229 231 235 / 1);
+}
+
+.footer-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-bottom {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(75 85 99 / 1);
+}
+
+.footer-divider {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(229 231 235 / 1);
+  margin-bottom: 1rem;
+}
+
+.decorative-below-fold {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.decorative-image-wrapper {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border-width: 1px;
+}
+
+.decorative-image {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+}
+
+#ik2bl {
+  background-color: rgba(6, 5, 5, 1);
+}
+
+#i422z {
+  width: 60%;
+}
+
+#i9kk45 {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#in5dxs {
+  color: black;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 6px;
+}
+
+@media (max-width: 992px) {
+  .responsive-adjustments {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .lg\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-adjustments {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .sm\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .sm\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+</style>
+</html>
